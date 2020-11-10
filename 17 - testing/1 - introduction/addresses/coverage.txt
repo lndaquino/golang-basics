@@ -1,0 +1,7 @@
+mode: set
+tests-introduction/addresses/anyName.go:6.34,13.34 5 1
+tests-introduction/addresses/anyName.go:19.2,19.18 1 1
+tests-introduction/addresses/anyName.go:23.2,23.25 1 1
+tests-introduction/addresses/anyName.go:13.34,14.24 1 1
+tests-introduction/addresses/anyName.go:14.24,16.4 1 1
+tests-introduction/addresses/anyName.go:19.18,21.3 1 1

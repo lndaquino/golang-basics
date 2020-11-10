@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programando em Go</title>
+
+  <style>
+    h2 {
+      color: blue;
+    }
+  </style>
+
+</head>
+<body>
+  <h2>Home do site</h2>
+
+  <marquee>
+    <h4>Seja benvindo {{ .Nome }}</h4>
+  </marquee>
+
+  <button id="botao" type="button">Clique em mim</button>
+
+  <script>
+    var botao = document.getElementById("botao")
+    botao.onclick = function() {
+      alert("Botão clicado")
+    }
+  </script>
+</body>
+</html>
+
+<!--
+  {
+    "Nome" : "xxxx"
+    "Email": "xzzzy"
+  }
+-->
